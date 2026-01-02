@@ -1,0 +1,35 @@
+.services-section {
+      padding: 80px 0;
+      background-color: #f8f9fa;
+    }
+
+    .service-card {
+      background: #fff;
+      border-radius: 15px;
+      padding: 30px;
+      text-align: center;
+      transition: 0.3s ease;
+      height: 100%;
+    }
+
+    .service-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+    .service-icon {
+      width: 70px;
+      height: 70px;
+      background-color: #f44336;
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      margin: 0 auto 20px;
+    }
+
+    .highlight {
+      color: #f44336;
+    }
